@@ -14,6 +14,14 @@ will have to be installed!
 
 ## Installation
 
+First [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository, so that you have it available on your machine. If you have ``git`` installed on your machine, simply open a terminal, navigate to the folder that you want to contain the files from this repository, and run:
+
+```
+git clone https://github.com/JoKra1/MLCCS_GenSmooth.git
+```
+
+If you don't have ``git`` installed on your machine, simply click on the green ``<> Code`` button at the top of this repository and ``Download ZIP``. Now we can install the required Python packages.
+
 The easiest option to install the required packages is to get them directly from pypi via ``pip``. This can be achieved in two steps:
 
 1) Setup a [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) with python > 3.10

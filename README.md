@@ -5,7 +5,7 @@ This repository holds install instructions and a practice script - allowing you 
 
 To estimate the models we make use of ``mssm`` - a toolbox to estimate Generalized Additive Mixed Models (GAMMs),
 Generalized Additive Mixed Models of Location Scale and Shape (GAMMLSS), and more general (mixed) smooth models in the sense defined
-by [Wood, Pya, & Säfken (2016)](https://doi.org/10.1080/01621459.2016.1180986). Approximate estimation (and automatic regularization) of the latter only requires users to provide the (gradient of) the log-likelihood. Furthermore, ``mssm`` is an excellent choice for the modeling of multi-level time-series data, often estimating additive models with separate smooths for thousands of levels in a couple of minutes. **Documentation** for ``mssm`` is hosted [here](https://jokra1.github.io/mssm/index.html)
+by [Wood, Pya, & Säfken (2016)](https://doi.org/10.1080/01621459.2016.1180986). Approximate estimation (and automatic regularization) of the latter only requires users to provide the (gradient of) the log-likelihood. Furthermore, ``mssm`` is an excellent choice for the modeling of multi-level time-series data, often estimating additive models with separate smooths for thousands of levels in a couple of minutes. **Documentation** for ``mssm`` is hosted [here](https://jokra1.github.io/mssm/index.html) and [here](https://jokra1.github.io/mssm_tutorials/index.html) for ``mssmViz``
 
 **Note**: The ``practical.ipynb`` file contains the practice notebook (for the practical it is recommended that you use [Visual Studio Code](https://code.visualstudio.com)
 as your IDE. It is also recommended that you install the ``Python`` and ``Jupyter`` extensions - see [here](https://code.visualstudio.com/docs/editor/extension-marketplace)
